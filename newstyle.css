@@ -1,0 +1,68 @@
+.d-bloc {
+    color: black !important;
+}
+
+.white {
+    color: black !important;
+}
+
+.icon-md {
+    color: black !important;
+}
+
+.btn-atomic-tangerine {
+    color:black !important;
+}
+
+.hero-bloc-text {
+    color:black !important;
+    border : 1px solid transparent;
+    border-radius: 30px;
+    background-color: white;
+    padding: 9px;
+    width: 390px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mg-md {
+    color: black !important;
+}
+
+.ready {
+    color:black !important;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.black-background {
+    background-color: white;
+}
+
+.ltc-white {
+    color: black !important;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+.btn,
+a {
+    font-family: "helvetica";
+    font-weight: 600;
+    color: black!important;
+}
