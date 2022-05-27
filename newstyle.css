@@ -1,5 +1,7 @@
 .d-bloc {
     color: black !important;
+    display: flex;
+    justify-content: center;
 }
 
 .white {
@@ -23,6 +25,8 @@
     width: 390px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    justify-content: center
 }
 
 .mg-md {
@@ -46,6 +50,9 @@
 
 .ltc-white {
     color: black !important;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
 }
 
 p {
@@ -81,3 +88,38 @@ a {
     width: 100px;
     height: 100px;
 }
+
+.tc-white {
+    color: black !important;
+    
+}
+
+.hero-bloc-text {
+    font-size: 32px;
+}
+
+.scrollToTop {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+}
+
+.li-header {
+    margin-right: 50px;
+}
+
+.image-header {
+    padding-top: 13px;
+}
+
+.header-contact {
+    height:93px;
+}
+
