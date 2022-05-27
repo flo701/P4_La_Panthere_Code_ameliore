@@ -66,3 +66,18 @@ a {
     font-weight: 600;
     color: black!important;
 }
+
+#bloc-4-portfolio img {
+    width :270px;
+    height:270px;
+}
+
+.navbar-header img {
+    width: 217px;
+    height:40px;
+}
+
+.col-sm-12 img {
+    width: 100px;
+    height: 100px;
+}
