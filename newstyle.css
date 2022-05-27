@@ -152,3 +152,7 @@ ul {
 .adress p {
     font-size: 20px;
 }
+
+.form-control {
+    border: 1px solid black;
+}
