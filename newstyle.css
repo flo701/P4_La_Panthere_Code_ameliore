@@ -133,9 +133,10 @@ ul {
 #bloc-6 p {
     text-align: center;
     border: 1px solid transparent;
-    border-radius: 30px;
+    border-radius: 35px;
     background-color: white;
-    padding: 7px;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .bg-bloc-6 {
@@ -150,7 +151,7 @@ ul {
 }
 
 .adress p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .form-control {
