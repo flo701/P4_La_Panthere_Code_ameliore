@@ -3,13 +3,9 @@ body {
 }
 
 .d-bloc {
-    color: black !important;
+    color: black;
     display: flex;
     justify-content: center;
-}
-
-.white {
-    color: black !important;
 }
 
 .icon-md {
@@ -17,11 +13,11 @@ body {
 }
 
 .btn-atomic-tangerine {
-    color:black !important;
+    color:black;
 }
 
 .hero-bloc-text {
-    color:black !important;
+    color:black;
     border : 1px solid transparent;
     border-radius: 30px;
     background-color: white;
@@ -34,11 +30,11 @@ body {
 }
 
 .mg-md {
-    color: black !important;
+    color: black;
 }
 
 .ready {
-    color:black !important;
+    color:black;
     border: 1px solid transparent;
     border-radius: 40px;
     background-color: white;
@@ -53,7 +49,7 @@ body {
 }
 
 .ltc-white {
-    color: black !important;
+    color: black;
     display: flex;
     justify-content: center;
     margin-top:20px;
@@ -75,7 +71,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 500;
-    color: black!important;
+    color: black !important;
 }
 
 #bloc-4-portfolio img {
@@ -93,7 +89,7 @@ a {
 }
 
 .tc-white {
-    color: black !important;
+    color: black;
     
 }
 
@@ -103,10 +99,6 @@ a {
 
 .h1-page2 {
     margin-bottom: 30px;
-}
-
-.scrollToTop {
-    opacity: 1;
 }
 
 a {

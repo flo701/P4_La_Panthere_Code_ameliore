@@ -7,6 +7,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -102,6 +116,12 @@ a:hover {
 /* .d-bloc { */
     /* color: rgba(255, 255, 255, .7); */
 /* }  */
+
+.d-block {
+    color: black;
+    display: flex;
+    justify-content: center;
+    }
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -264,6 +284,18 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+.li-header {
+    margin-right: 4px;
+}
+
+.image-header {
+    padding-top: 7px;
+}
+
+.header-contact {
+    height:93px;
+}
+
 .voffset {
     margin-top: 30px;
 }
@@ -290,6 +322,10 @@ a:hover {
 .navbar {
     margin-bottom: 0;
     z-index: 1;
+}
+
+.navbar-header img {
+    width: 217px;
 }
 
 .navbar-brand {
@@ -435,9 +471,15 @@ nav .caret {
     float: right;
 }
 
+.col-sm-12 img {
+    width: 100px;
+    height: 100px;
+}
+
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .mg-lg {
@@ -477,10 +519,22 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color:#000000 !important;
 }
 
 .icon-lg {
     font-size: 60px!important;
+}
+
+.ready {
+    color:black;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    background-color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
 
 .sm-shadow {
@@ -650,8 +704,10 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    /* font-weight: 400; */
+    /* color: #575757!important; */
+    font-weight: 500;
+    color: black !important;
 }
 
 /* .container { */
@@ -662,8 +718,26 @@ a {
     /* font-size: 38px; */
 /* } */
 
+.hero-bloc-text {
+    color:black;
+    border : 1px solid transparent;
+    border-radius: 30px;
+    background-color: white;
+    padding: 9px;
+    width: 390px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+
 .hero-bloc-text-sub {
     font-size: 36px;
+}
+
+.h1-page2 {
+    margin-bottom: 30px;
 }
 
 .statement-bloc-text {
@@ -676,9 +750,9 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+/* p { */
+    /* font-size: 11px; */
+/* } */
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -692,7 +766,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -735,10 +809,6 @@ h4 {
     margin-top: 24px;
 }
 
-/* .white { */
-    /* color: #FFFFFF!important; */
-/* } */
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -748,12 +818,18 @@ h4 {
     margin-top: 50px;
 }
 
+#bloc-4-portfolio img {
+    width :270px;
+    height:270px;
+}
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /* background-color: rgba(165, 147, 99, 0.7); */
+    background-color: white;
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,21 +851,29 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+    color:black;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
+    color:#000000;
     /* color: #FFFFFF!important; */
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    /* background: #c27956!important; */
+    /* 10% plus claire */
+    background : #ffb186;
+    /* color: #FFFFFF!important; */
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    /* color: #FFFFFF!important; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
 }
 
 /* .ltc-white:hover { */
@@ -823,6 +907,41 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
+}
+
+#bloc-6 p {
+    width: 650px;
+    margin:auto;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.bg-bloc-6 {
+    background-image: url("img/agence-la-panthere.webp");
+    background-position: center;
+}
+
+.adress {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.adress p {
+    font-size: 18px;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+label {
+    font-size: 16px;
 }
 
 @media (max-width: 1024px) {
