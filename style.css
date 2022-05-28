@@ -285,11 +285,11 @@ a:hover {
 }
 
 .li-header {
-    margin-right: 4px;
+    /* margin-right: 4px; */
 }
 
 .image-header {
-    padding-top: 7px;
+    /* padding-top: 7px; */
 }
 
 .header-contact {
@@ -326,6 +326,7 @@ a:hover {
 
 .navbar-header img {
     width: 217px;
+    height: 40px;
 }
 
 .navbar-brand {
@@ -524,6 +525,7 @@ button {
 .quote-bloc2 {
     font-style: italic;
 }
+
 .icon-md {
     font-size: 30px!important;
     color:#000000 !important;
@@ -842,7 +844,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    /* text-decoration: underline!important; */
 }
 
 .bgc-white {
