@@ -571,7 +571,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 0; 
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -916,7 +916,7 @@ h4 {
     text-align: center;
     border: 1px solid transparent;
     border-radius: 35px;
-    background-color: white;
+    background-color: #F3976C;
     padding-top: 12px;
     padding-bottom: 10px;
     font-size: 18px;
