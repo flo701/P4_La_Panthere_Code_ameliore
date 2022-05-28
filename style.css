@@ -284,10 +284,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.header-contact {
-    height:93px;
-}
-
 .voffset {
     margin-top: 30px;
 }
@@ -580,10 +576,16 @@ button {
     margin-top: 6px;
 }
 
+/* .scrollToTop:active { */
+    /* bottom:30px; */
+    /* pointer-events:auto; */
+    /* opacity:1; */
+/* } */
+
 .showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
+    font-size: 14px; 
+    opacity: 1; 
+} 
 
 a[data-lightbox] {
     position: relative;
@@ -968,13 +970,13 @@ label {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -992,10 +994,10 @@ label {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    /* .bloc { */
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
+    /* } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1004,8 +1006,8 @@ label {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left); */
+        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 
