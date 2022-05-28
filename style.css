@@ -852,6 +852,12 @@ h4 {
     height:270px;
 }
 
+@media screen and (max-width: 767px) {
+    #bloc-4-portfolio img {
+        margin: auto;
+    } 
+}
+
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -865,6 +871,7 @@ h4 {
 .bold-link {
     font-weight: 900;
     /* text-decoration: underline!important; */
+    text-align: center;
 }
 
 .bgc-white {
@@ -1188,6 +1195,13 @@ label {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .p-bloc4 {
+        padding-left: 7px !important;
+        padding-right: 7px !important;
     }
 }
 
