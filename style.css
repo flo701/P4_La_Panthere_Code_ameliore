@@ -307,6 +307,13 @@ a:hover {
     font-size: 32px;
 }
 
+@media screen and (max-width: 767px) {
+    #bloc-1-hero h1 {
+        font-size: 23px;
+        padding:13px;
+    }
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -763,7 +770,7 @@ a {
     margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .h1-page2 {
     font-size: 23px;
     }
@@ -802,6 +809,11 @@ a {
     font-weight: 700;
 }
 
+@media screen and (max-width:767px) {
+    .cta-hero {
+        font-weight: 500;
+    }
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
