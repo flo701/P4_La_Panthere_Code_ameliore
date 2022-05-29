@@ -94,34 +94,9 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    /* background: url("img/texture-paper.png"); */
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
-
-/* .d-bloc { */
-    /* color: rgba(255, 255, 255, .7); */
-/* }  */
-
-.d-block {
-    color: black;
-    display: flex;
-    justify-content: center;
-    }
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -606,12 +581,6 @@ button {
     margin-top: 6px;
 }
 
-/* .scrollToTop:active { */
-    /* bottom:30px; */
-    /* pointer-events:auto; */
-    /* opacity:1; */
-/* } */
-
 .showScrollTop {
     font-size: 14px; 
     opacity: 1; 
@@ -737,19 +706,9 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    /* font-weight: 400; */
-    /* color: #575757!important; */
     font-weight: 500;
     color: black !important;
 }
-
-/* .container { */
-    /* max-width: 1000px; */
-/* } */
-
-/* .hero-bloc-text { */
-    /* font-size: 38px; */
-/* } */
 
 .hero-bloc-text {
     color:black;
@@ -799,10 +758,6 @@ a {
     margin: auto auto auto auto;
 }
 
-/* p { */
-    /* font-size: 11px; */
-/* } */
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -815,7 +770,6 @@ a {
 
 .cta-hero {
     margin-top: 22px;
-    /* color: #FFFFFF!important; */
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -888,14 +842,12 @@ h4 {
 }
 
 .black-background {
-    /* background-color: rgba(165, 147, 99, 0.7); */
     background-color: white;
     padding: 40px 40px 40px 40px;
 }
 
 .bold-link {
     font-weight: 900;
-    /* text-decoration: underline!important; */
     text-align: center;
 }
 
@@ -903,43 +855,29 @@ h4 {
     background-color: #FFFFFF;
 }
 
-/* .bgc-dark-slate-blue { */
-    /* background-color: #364577; */
-/* } */
-
 .bgc-atomic-tangerine { 
     background-color: #F3976C; 
 } 
 
 .tc-white {
-    /* color: #F3976C!important; */
     color:black;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color:#000000;
-    /* color: #FFFFFF!important; */
 }
 
 .btn-atomic-tangerine:hover {
-    /* background: #c27956!important; */
-    /* 10% plus claire */
     background : #ffb186;
-    /* color: #FFFFFF!important; */
 }
 
 .ltc-white {
-    /* color: #FFFFFF!important; */
     color: black;
     display: flex;
     justify-content: center;
     margin-top:20px;
 }
-
-/* .ltc-white:hover { */
-    /* color: #cccccc!important; */
-/* } */
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
@@ -954,14 +892,6 @@ h4 {
     border-color: #364577!important;
 }
 
-/* .bg-dots-bg { */
-    /* background-image: url("img/dots-bg.png"); */
-/* } */
-
-/* .bg-lines-h2-bg { */
-    /* background-image: url("img/lines-h2-bg.png"); */
-/* } */
-
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
 }
@@ -975,7 +905,6 @@ h4 {
     text-align: center;
     border: 1px solid transparent;
     border-radius: 35px;
-    /* background-color: #F3976C; */
     background-color: white;
     padding-top: 12px;
     padding-bottom: 10px;
@@ -1068,10 +997,6 @@ label {
         overflow-x: hidden;
         position: relative;
     }
-    /* .bloc { */
-        /* padding-left: constant(safe-area-inset-left); */
-        /* padding-right: constant(safe-area-inset-right); */
-    /* } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1080,8 +1005,6 @@ label {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        /* padding-left: constant(safe-area-inset-left); */
-        /* padding-right: constant(safe-area-inset-right); */
     }
 }
 
@@ -1207,7 +1130,6 @@ label {
         margin-top: 30px;
     }
     form {
-        /* padding: 5px; */
         padding-left:20px;
         padding-right:20px;
     }
