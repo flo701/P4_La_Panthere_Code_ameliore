@@ -783,6 +783,9 @@ a {
     .h1-page2 {
     font-size: 23px;
     border-radius: 15px;
+    padding-top: 12px;
+    padding-bottom: 12;
+    width:265px;
     }
 }
 
