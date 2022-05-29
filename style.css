@@ -337,6 +337,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 217px;
+    height: 40px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -1194,7 +1196,9 @@ label {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        /* padding: 5px; */
+        padding-left:20px;
+        padding-right:20px;
     }
     .close-lightbox {
         display: inline-block;
