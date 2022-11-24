@@ -1,1 +1,1 @@
-[Logo La Panthère](img/logo.webp)
+![Logo La Panthère](img/logo.webp)
